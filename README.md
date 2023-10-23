@@ -38,12 +38,12 @@ In this project, we use Python to identify influential factors, including alcoho
 ## Results and Visualizations
 
 <div align="center">
-  <img src="Images/image_1.png" width="800" height="720" alt="Image 1">
+  <img src="images/image_1.png" width="800" height="720" alt="Image 1">
 </div>
 The heatmap heightened social outings correspond to increased weekend alcohol consumption, displaying a strong positive correlation with weekday consumption. Failures exhibit a significant negative correlation with final grades, while parental education levels show a similar negative correlation with failures. Moreover, higher parental education positively influences final grades. Most other variables exhibit weak or negligible correlations.
 
 <div align="center">
-  <img src="Images/image_2.png" width="800" height="586" alt="Image 2"> 
+  <img src="images/image_2.png" width="800" height="587" alt="Image 2"> 
 </div>
 
 The regplot indicates a relatively flat relationship between scores and daily alcohol consumption (Dalc), suggesting no strong linear correlation between the two variables.
@@ -52,7 +52,7 @@ The regplot indicates a relatively flat relationship between scores and daily al
 We then conducted initial t-tests to assess each factor's significance in relation to others. Combined with EDA and domain knowledge, we retained key following variables: sex, age, travel time, study time, failures, school support, romantic relationships, social outings, alcohol consumption, and absences.
 
 <div align="center">
-  <img src="Images/image_3.png" width="800" height="821" alt="Image 3">
+  <img src="images/image_3.png" width="1000" height="432" alt="Image 3">
 </div>
 
 
@@ -60,7 +60,7 @@ We then conducted initial t-tests to assess each factor's significance in relati
 
 After a thorough model diagnosis, we identified heteroscedasticity and influential data points in the initial model incorporating 11 predictors. To rectify these issues, we addressed outlier data points, performed t-tests, and conducted ANOVA analyses. Based on significance levels, the final model retained five predictors: sex, school support, study time, failures, and going out.
 <div align="center">
-  <img src="Images/image_4.png" width="800" height="346" alt="Image 1">
+  <img src="images/image_4.png" width="800" height="346" alt="Image 1">
 </div>
 
 
